@@ -161,6 +161,7 @@ html {
 .promo__address {
   position: relative;
   margin-top: 100px;
+  padding-bottom: 20px;
   color: var(--light-color, #f5f5f7);
   font-size: 16px;
   font-style: normal;
@@ -192,15 +193,13 @@ html {
     }
   }
   @media screen and (max-width: 750px) {
-    & {
-      padding-bottom: 20px;
-    }
     &::before {
       display: none;
     }
   }
   @media screen and (max-width: 576px) {
     margin-top: 233px;
+    padding-bottom: 0px;
   }
 }
 
