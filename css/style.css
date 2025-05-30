@@ -186,13 +186,15 @@ html {
   @media screen and (max-width: 768px) {
     & {
       margin-top: 80px;
-      padding-bottom: 20px;
     }
     &::before {
       left: -40px;
     }
   }
   @media screen and (max-width: 750px) {
+    & {
+      padding-bottom: 20px;
+    }
     &::before {
       display: none;
     }
